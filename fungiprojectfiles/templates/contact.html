@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(140deg, #a8e063, #56ab2f);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      justify-content: center;
+      overflow: hidden; /* Prevents scrollbars */
+    }
+
+    .contact-form-container {
+      width: 400px;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+      transition: box-shadow 0.3s ease;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(45deg, #007bff, #6f42c1);
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease;
+    }
+
+    button:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 255, 0.7);
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .contact-form-container {
+        width: 90%;
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contact-form-container {
+        width: 95%;
+        padding: 15px;
+      }
+
+      input[type="text"], input[type="email"], textarea {
+        padding: 8px;
+      }
+
+      button {
+        padding: 8px;
+      }
+    }
+
+    /* Additional styles for header and navbar from about.html */
+    header {
+        text-align: center;
+        background: rgba(0, 128, 0, 0.9);
+        color: white;
+        padding: 1rem 0;
+        font-size: 2rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background: #4CAF50;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
+        top: 68px;
+        z-index: 999;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        border-radius: 5px;
+        margin: 0 0.5rem;
+    }
+
+    .navbar a:hover {
+        background-color: #45a049;
+    }
+
+    footer {
+        background: rgba(0, 100, 0, 0.8);
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a {
+        color: #d0e7a4;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        Fungus Detection System - About Us
+    </header>
+
+    <nav class="navbar">
+        <a href="/home">HOME</a>
+        <a href="/about">ABOUT</a>
+        <a href="/contact">CONTACT US</a>
+    </nav>
+
+  <div class="contact-form-container">
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="942826e6-774a-4fa2-9f7c-6f152ea87fa6">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your name">
+
+      <label for="email">Email ID</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label for="query">Your Query</label>
+      <textarea id="query" name="query" placeholder="Type your query here..."></textarea>
+
+      <label for="suggestions">Suggestions</label>
+      <textarea id="suggestions" name="suggestions" placeholder="Share your thoughts to improve our website..."></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <footer>
+      &copy; 2024 Fungus Detection System. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a>
+  </footer>
+  
+</body>
+</html>
