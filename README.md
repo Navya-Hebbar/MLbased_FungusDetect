@@ -16,11 +16,11 @@ A machine learning-based system to detect fungus in plant leaves using deep lear
 
 ##  Future Scope
 
-# Hardware Integration
+### Hardware Integration
 Future updates will include IoT integration for real-time fungus detection.
-# Enhanced Model Performance
+### Enhanced Model Performance
 Exploring transformer-based models to improve accuracy.
-# Cloud Deployment
+### Cloud Deployment
 Deploying the system on cloud platforms for global accessibility.
-# Mobile App Integration
+### Mobile App Integration
 Extending functionality to Android & iOS via a dedicated mobile application.
