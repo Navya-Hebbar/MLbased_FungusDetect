@@ -18,22 +18,27 @@ A **machine learning-based system** designed to detect fungus in plant leaves us
 ### Prerequisites  
 Ensure you have **Python 3.x** installed along with the required dependencies:  
 
+## 📂 Dataset  
+- The model was trained on **9,000 images** sourced from a **Kaggle dataset** and **real-world plant leaf images**.
+
 ## Running the Project  
 
 ### Clone the repository:  
 ```bash
-git clone <your-repo-url>
-
-###Navigate to the project directory:
-###Run the application
+git clone [<your-repo-url>](https://github.com/Navya-Hebbar/MLbased_FungusDetect.git)
+```
+### Navigate to the project directory
+### Run the application
 ```bash
 python app.py
+```
 
-###Open browser and visit
+### Open browser and visit
 ```bash
 http://127.0.0.1:5000/
+```
 
-###Upload an image and check result
+### Upload an image and check result
 
 
 ## Future Scope
