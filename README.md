@@ -25,9 +25,14 @@ Ensure you have **Python 3.x** installed along with the required dependencies:
 
 ### Clone the repository:  
 ```bash
-git clone [<your-repo-url>](https://github.com/Navya-Hebbar/MLbased_FungusDetect.git)
+git clone https://github.com/Navya-Hebbar/MLbased_FungusDetect.git
 ```
 ### Navigate to the project directory
+```bash
+cd MLbased_FungusDetect
+cd fungiprojectfiles
+```
+
 ### Run the application
 ```bash
 python app.py
